@@ -16,3 +16,4 @@ def print_all_cars():
             print(f"Car: {car[0]} Top speed : {car[1]}")
 if __name__ == "__main__":
     print_all_cars()
+
