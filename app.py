@@ -20,14 +20,14 @@ def print_all_aircraft():
 # main code
 while True:
     user_input = input(
-        """What would you like to do.\n
-        1. Print all aircraft\n
-        2. Print all aircraft sorted by speed\n
-        3. Print all aircraft sorted by max g force\n
-        4. Print all aircraft sorted by climb\n
-        5. Print all aircraft sorted by range\n
-        6. Print all aircraft sorted by payload\n
-        7. Exit\n
+"""What would you like to do.\n
+1. Print all aircraft\n
+2. Print all aircraft sorted by speed\n
+3. Print all aircraft sorted by max g force\n
+4. Print all aircraft sorted by climb\n
+5. Print all aircraft sorted by range\n
+6. Print all aircraft sorted by payload\n
+7. Exit\n
         """
             )
 
@@ -47,4 +47,4 @@ while True:
         print("Goodbye.")
         break
     else:
-            print("That was not an option\n")
+        print("That was not an option\n")
