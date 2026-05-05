@@ -34,7 +34,7 @@ while True:
     if user_input == "1":
         print_all_aircraft()
     elif user_input == "2":
-        print_all_aircraft_by_speed()
+        pass
     elif user_input == "3":
         pass
     elif user_input == "4":
