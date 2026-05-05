@@ -18,21 +18,22 @@ def print_all_aircraft():
     db.close()
 
 # main code
-user_input = input("What would you like to do. \n. Printall aircraft\n2.Exit")
+while True:
+    user_input = input("What would you like to do.\n1. Print all aircraft\n2. Print all aircraft sorted by speed\n7. Exit\n")
     if user_input == "1":
-        print_all_aircraft()
+            print_all_aircraft()
     elif user_input == "2":
-        pass
+            pass
     elif user_input == "3":
-        pass
+            pass
     elif user_input == "4":
-        pass
+            pass
     elif user_input == "5":
-        pass
+            pass
     elif user_input == "6":
-        pass
+            pass
     elif user_input == "7":
+        print("Goodbye.")
         break
     else:
         print("That was not an option\n")
-
